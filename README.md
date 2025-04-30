@@ -1,4 +1,8 @@
-# Welcome to your CDK TypeScript project
+# Moesif API Monetization for AWS SBT
+
+This project is an AWS SBT module to enable usage-based billing through Moesif.
+Moesif can meter usage such as API transactions, compute resources, payload size, and unique users. 
+Then, you can invoice and collect payments automatically through popular tools like Stripe, Zuora, or even a custom invoicing solution. 
 
 This is a blank project for CDK development with TypeScript.
 
