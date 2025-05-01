@@ -4,8 +4,7 @@ import * as cdk from 'aws-cdk-lib';
 import { CognitoAuth, ControlPlane, IEventManager } from '@cdklabs/sbt-aws';
 import { Stack } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
-import {MoesifBilling, BillingProviderSlug} from '../../sbt-aws-moesif/lib'
-//import {MoesifBilling, BillingProviderSlug} from 'sbt-aws-moesif'
+import {MoesifBilling, BillingProviderSlug} from 'sbt-aws-moesif'
 
 export class ControlPlaneStack extends Stack {
   public readonly regApiGatewayUrl: string;
